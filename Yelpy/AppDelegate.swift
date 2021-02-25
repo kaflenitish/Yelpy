@@ -2,12 +2,13 @@
 //  AppDelegate.swift
 //  Yelpy
 //
-//  Created by Nitish Kafle on 2/24/21.
+//  Created by Memo on 5/21/20.
+//  Copyright © 2020 memo. All rights reserved.
 //
 
 import UIKit
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 

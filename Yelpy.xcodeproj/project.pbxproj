@@ -3,66 +3,131 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B0E173325E72AD300D6EDA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E173225E72AD300D6EDA3 /* AppDelegate.swift */; };
-		5B0E173525E72AD300D6EDA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E173425E72AD300D6EDA3 /* SceneDelegate.swift */; };
-		5B0E173725E72AD300D6EDA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E173625E72AD300D6EDA3 /* ViewController.swift */; };
-		5B0E173A25E72AD300D6EDA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B0E173825E72AD300D6EDA3 /* Main.storyboard */; };
-		5B0E173C25E72ADB00D6EDA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B0E173B25E72ADB00D6EDA3 /* Assets.xcassets */; };
-		5B0E173F25E72ADB00D6EDA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B0E173D25E72ADB00D6EDA3 /* LaunchScreen.storyboard */; };
+		5B33AA9B25E7306900E9C587 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B33AA9A25E7306900E9C587 /* RestaurantCell.swift */; };
+		BB47B3AA247739640029FFF6 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB47B3A9247739640029FFF6 /* API.swift */; };
+		BB47B3AF2477426A0029FFF6 /* exampleAPI.json in Resources */ = {isa = PBXBuildFile; fileRef = BB47B3AE2477426A0029FFF6 /* exampleAPI.json */; };
+		BB47B3B82477565E0029FFF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB47B3B62477565E0029FFF6 /* Main.storyboard */; };
+		BBEBF10C247738A50044AFE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEBF10B247738A50044AFE0 /* AppDelegate.swift */; };
+		BBEBF10E247738A50044AFE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEBF10D247738A50044AFE0 /* SceneDelegate.swift */; };
+		BBEBF110247738A50044AFE0 /* RestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEBF10F247738A50044AFE0 /* RestaurantsViewController.swift */; };
+		BBEBF115247738A50044AFE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBEBF114247738A50044AFE0 /* Assets.xcassets */; };
+		BBEBF118247738A50044AFE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBEBF116247738A50044AFE0 /* LaunchScreen.storyboard */; };
+		DEB0D3CBF2C6E48DC3500274 /* Pods_Yelpy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F45387EF0BCD4FD0EAD369F /* Pods_Yelpy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5B0E172F25E72AD300D6EDA3 /* Yelpy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yelpy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B0E173225E72AD300D6EDA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B0E173425E72AD300D6EDA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5B0E173625E72AD300D6EDA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5B0E173925E72AD300D6EDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5B0E173B25E72ADB00D6EDA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5B0E173E25E72ADB00D6EDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5B0E174025E72ADB00D6EDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ED4C73FD51FDFC62216E5DE /* Pods-Yelpy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yelpy.debug.xcconfig"; path = "Target Support Files/Pods-Yelpy/Pods-Yelpy.debug.xcconfig"; sourceTree = "<group>"; };
+		4F45387EF0BCD4FD0EAD369F /* Pods_Yelpy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yelpy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B33AA9A25E7306900E9C587 /* RestaurantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
+		65F962A73D0A55B6E930DC45 /* Pods-Yelpy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yelpy.release.xcconfig"; path = "Target Support Files/Pods-Yelpy/Pods-Yelpy.release.xcconfig"; sourceTree = "<group>"; };
+		BB47B3A9247739640029FFF6 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		BB47B3AE2477426A0029FFF6 /* exampleAPI.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = exampleAPI.json; sourceTree = "<group>"; };
+		BB47B3B72477565E0029FFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBEBF108247738A50044AFE0 /* Yelpy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yelpy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEBF10B247738A50044AFE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBEBF10D247738A50044AFE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BBEBF10F247738A50044AFE0 /* RestaurantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsViewController.swift; sourceTree = "<group>"; };
+		BBEBF114247738A50044AFE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBEBF117247738A50044AFE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBEBF119247738A50044AFE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5B0E172C25E72AD300D6EDA3 /* Frameworks */ = {
+		BBEBF105247738A50044AFE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEB0D3CBF2C6E48DC3500274 /* Pods_Yelpy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5B0E172625E72AD300D6EDA3 = {
+		2344D15B0FAC56D7DA5C2A30 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5B0E173125E72AD300D6EDA3 /* Yelpy */,
-				5B0E173025E72AD300D6EDA3 /* Products */,
+				4ED4C73FD51FDFC62216E5DE /* Pods-Yelpy.debug.xcconfig */,
+				65F962A73D0A55B6E930DC45 /* Pods-Yelpy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7D8BA013843B8AF0BF0FE308 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F45387EF0BCD4FD0EAD369F /* Pods_Yelpy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB47B3AB247739720029FFF6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BB47B3A9247739640029FFF6 /* API.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BB47B3AC247739890029FFF6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BBEBF10F247738A50044AFE0 /* RestaurantsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BB47B3AD247739F00029FFF6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BB47B3B62477565E0029FFF6 /* Main.storyboard */,
+				BBEBF116247738A50044AFE0 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		BB47B3B32477539A0029FFF6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5B33AA9A25E7306900E9C587 /* RestaurantCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BBEBF0FF247738A50044AFE0 = {
+			isa = PBXGroup;
+			children = (
+				BBEBF10A247738A50044AFE0 /* Yelpy */,
+				BBEBF109247738A50044AFE0 /* Products */,
+				2344D15B0FAC56D7DA5C2A30 /* Pods */,
+				7D8BA013843B8AF0BF0FE308 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		5B0E173025E72AD300D6EDA3 /* Products */ = {
+		BBEBF109247738A50044AFE0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B0E172F25E72AD300D6EDA3 /* Yelpy.app */,
+				BBEBF108247738A50044AFE0 /* Yelpy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5B0E173125E72AD300D6EDA3 /* Yelpy */ = {
+		BBEBF10A247738A50044AFE0 /* Yelpy */ = {
 			isa = PBXGroup;
 			children = (
-				5B0E173225E72AD300D6EDA3 /* AppDelegate.swift */,
-				5B0E173425E72AD300D6EDA3 /* SceneDelegate.swift */,
-				5B0E173625E72AD300D6EDA3 /* ViewController.swift */,
-				5B0E173825E72AD300D6EDA3 /* Main.storyboard */,
-				5B0E173B25E72ADB00D6EDA3 /* Assets.xcassets */,
-				5B0E173D25E72ADB00D6EDA3 /* LaunchScreen.storyboard */,
-				5B0E174025E72ADB00D6EDA3 /* Info.plist */,
+				BBEBF114247738A50044AFE0 /* Assets.xcassets */,
+				BBEBF10B247738A50044AFE0 /* AppDelegate.swift */,
+				BBEBF10D247738A50044AFE0 /* SceneDelegate.swift */,
+				BB47B3AE2477426A0029FFF6 /* exampleAPI.json */,
+				BB47B3B32477539A0029FFF6 /* Cells */,
+				BB47B3AC247739890029FFF6 /* Controllers */,
+				BB47B3AB247739720029FFF6 /* Network */,
+				BB47B3AD247739F00029FFF6 /* Storyboards */,
+				BBEBF119247738A50044AFE0 /* Info.plist */,
 			);
 			path = Yelpy;
 			sourceTree = "<group>";
@@ -70,13 +135,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5B0E172E25E72AD300D6EDA3 /* Yelpy */ = {
+		BBEBF107247738A50044AFE0 /* Yelpy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B0E174325E72ADB00D6EDA3 /* Build configuration list for PBXNativeTarget "Yelpy" */;
+			buildConfigurationList = BBEBF11C247738A50044AFE0 /* Build configuration list for PBXNativeTarget "Yelpy" */;
 			buildPhases = (
-				5B0E172B25E72AD300D6EDA3 /* Sources */,
-				5B0E172C25E72AD300D6EDA3 /* Frameworks */,
-				5B0E172D25E72AD300D6EDA3 /* Resources */,
+				9E029D88624B626145BC69BB /* [CP] Check Pods Manifest.lock */,
+				BBEBF104247738A50044AFE0 /* Sources */,
+				BBEBF105247738A50044AFE0 /* Frameworks */,
+				BBEBF106247738A50044AFE0 /* Resources */,
+				D8B9687F89208270A941002A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,24 +151,25 @@
 			);
 			name = Yelpy;
 			productName = Yelpy;
-			productReference = 5B0E172F25E72AD300D6EDA3 /* Yelpy.app */;
+			productReference = BBEBF108247738A50044AFE0 /* Yelpy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5B0E172725E72AD300D6EDA3 /* Project object */ = {
+		BBEBF100247738A50044AFE0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = memo;
 				TargetAttributes = {
-					5B0E172E25E72AD300D6EDA3 = {
-						CreatedOnToolsVersion = 12.4;
+					BBEBF107247738A50044AFE0 = {
+						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
-			buildConfigurationList = 5B0E172A25E72AD300D6EDA3 /* Build configuration list for PBXProject "Yelpy" */;
+			buildConfigurationList = BBEBF103247738A50044AFE0 /* Build configuration list for PBXProject "Yelpy" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,55 +177,100 @@
 				en,
 				Base,
 			);
-			mainGroup = 5B0E172625E72AD300D6EDA3;
-			productRefGroup = 5B0E173025E72AD300D6EDA3 /* Products */;
+			mainGroup = BBEBF0FF247738A50044AFE0;
+			productRefGroup = BBEBF109247738A50044AFE0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B0E172E25E72AD300D6EDA3 /* Yelpy */,
+				BBEBF107247738A50044AFE0 /* Yelpy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5B0E172D25E72AD300D6EDA3 /* Resources */ = {
+		BBEBF106247738A50044AFE0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B0E173F25E72ADB00D6EDA3 /* LaunchScreen.storyboard in Resources */,
-				5B0E173C25E72ADB00D6EDA3 /* Assets.xcassets in Resources */,
-				5B0E173A25E72AD300D6EDA3 /* Main.storyboard in Resources */,
+				BBEBF118247738A50044AFE0 /* LaunchScreen.storyboard in Resources */,
+				BB47B3AF2477426A0029FFF6 /* exampleAPI.json in Resources */,
+				BBEBF115247738A50044AFE0 /* Assets.xcassets in Resources */,
+				BB47B3B82477565E0029FFF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9E029D88624B626145BC69BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yelpy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8B9687F89208270A941002A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yelpy/Pods-Yelpy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yelpy/Pods-Yelpy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yelpy/Pods-Yelpy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		5B0E172B25E72AD300D6EDA3 /* Sources */ = {
+		BBEBF104247738A50044AFE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B0E173725E72AD300D6EDA3 /* ViewController.swift in Sources */,
-				5B0E173325E72AD300D6EDA3 /* AppDelegate.swift in Sources */,
-				5B0E173525E72AD300D6EDA3 /* SceneDelegate.swift in Sources */,
+				5B33AA9B25E7306900E9C587 /* RestaurantCell.swift in Sources */,
+				BBEBF110247738A50044AFE0 /* RestaurantsViewController.swift in Sources */,
+				BB47B3AA247739640029FFF6 /* API.swift in Sources */,
+				BBEBF10C247738A50044AFE0 /* AppDelegate.swift in Sources */,
+				BBEBF10E247738A50044AFE0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5B0E173825E72AD300D6EDA3 /* Main.storyboard */ = {
+		BB47B3B62477565E0029FFF6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5B0E173925E72AD300D6EDA3 /* Base */,
+				BB47B3B72477565E0029FFF6 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5B0E173D25E72ADB00D6EDA3 /* LaunchScreen.storyboard */ = {
+		BBEBF116247738A50044AFE0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5B0E173E25E72ADB00D6EDA3 /* Base */,
+				BBEBF117247738A50044AFE0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -165,7 +278,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5B0E174125E72ADB00D6EDA3 /* Debug */ = {
+		BBEBF11A247738A50044AFE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -216,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -226,7 +339,7 @@
 			};
 			name = Debug;
 		};
-		5B0E174225E72ADB00D6EDA3 /* Release */ = {
+		BBEBF11B247738A50044AFE0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,7 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -281,66 +394,64 @@
 			};
 			name = Release;
 		};
-		5B0E174425E72ADB00D6EDA3 /* Debug */ = {
+		BBEBF11D247738A50044AFE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ED4C73FD51FDFC62216E5DE /* Pods-Yelpy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 48RRY4TGP8;
 				INFOPLIST_FILE = Yelpy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nitishkafle.Yelpy;
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.Yelpy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		5B0E174525E72ADB00D6EDA3 /* Release */ = {
+		BBEBF11E247738A50044AFE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65F962A73D0A55B6E930DC45 /* Pods-Yelpy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 48RRY4TGP8;
 				INFOPLIST_FILE = Yelpy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nitishkafle.Yelpy;
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.Yelpy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B0E172A25E72AD300D6EDA3 /* Build configuration list for PBXProject "Yelpy" */ = {
+		BBEBF103247738A50044AFE0 /* Build configuration list for PBXProject "Yelpy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B0E174125E72ADB00D6EDA3 /* Debug */,
-				5B0E174225E72ADB00D6EDA3 /* Release */,
+				BBEBF11A247738A50044AFE0 /* Debug */,
+				BBEBF11B247738A50044AFE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B0E174325E72ADB00D6EDA3 /* Build configuration list for PBXNativeTarget "Yelpy" */ = {
+		BBEBF11C247738A50044AFE0 /* Build configuration list for PBXNativeTarget "Yelpy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B0E174425E72ADB00D6EDA3 /* Debug */,
-				5B0E174525E72ADB00D6EDA3 /* Release */,
+				BBEBF11D247738A50044AFE0 /* Debug */,
+				BBEBF11E247738A50044AFE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5B0E172725E72AD300D6EDA3 /* Project object */;
+	rootObject = BBEBF100247738A50044AFE0 /* Project object */;
 }
